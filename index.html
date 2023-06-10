@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Toast Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+    
+</head>
+<body>
+    <header id="Header">
+        <!-- This is where the header will go -->
+        <ul>
+            <li></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Footer">Contact</a></li>
+            <li><button onclick="myFunction()">Dark Mode</button></li>
+        </ul>
+    </header>
+    <main>
+        <!-- Title and Description -->
+        
+        <section id="Title">
+            <h1>Team Toast Bakery</h1>
+            <p> Welcome to the amazing world of the Bakery. Feel free to explore our various range and enjoy.</p>
+        </section>
+        <section>
+            <!-- Three product picutes and links will go here -->
+            <div class="row">
+                <div class="column">
+                    <a href="#Pastries"><img class="categories" alt="Pastries" title="Pastries" src="https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"/></a>
+                    <h2 id="cat_title">Pastries</h2>
+                </div>
+                <div class="column">
+                    <a href="#Cakes"><img class="categories" alt="Cakes" title="Cakes" src="https://images.unsplash.com/photo-1622896784083-cc051313dbab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FrZXN8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&w=400&q=60"/></a>
+                    <h2 id="cat_title">Cakes</h2>
+                </div>
+                <div class="column">
+                    <a href="#Cookies"><img class="categories" alt="Cookies" title="Cookies" src="https://images.unsplash.com/photo-1634188023730-2a607e9c27a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTd8fGNvb2tpZXN8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&w=400&q=60"/></a>
+                    <h2 id="cat_title">Cookies</h2>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="About">
+            <!-- section about baker and description-->
+            <div class="row">
+                <div class="descript_column">
+                    <h3>Our Bakers</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda minus esse quasi, molestiae aliquam, deserunt quaerat aliquid optio aspernatur commodi numquam enim nihil modi fuga molestias labore fugiat iusto quibusdam?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, optio? Ipsum voluptatum assumenda vel quod quas esse ipsa vero, velit excepturi provident est necessitatibus doloribus earum ducimus dignissimos tempore at!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, optio? Ipsum voluptatum assumenda vel quod quas esse ipsa vero, velit excepturi provident est necessitatibus doloribus earum ducimus dignissimos tempore at!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, optio? Ipsum voluptatum assumenda vel quod quas esse ipsa vero, velit excepturi provident est necessitatibus doloribus earum ducimus dignissimos tempore at!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, optio? Ipsum voluptatum assumenda vel quod quas esse ipsa vero, velit excepturi provident est necessitatibus doloribus earum ducimus dignissimos tempore at!</p>
+                </div>
+                <div class="descript_column">
+                    <img src="https://images.unsplash.com/photo-1556250438-1ba2507e9edb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=812&q=80" >
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <!-- Various products and individual items (shop) -->
+            <section id="Pastries"> 
+                <!-- Pain Au Chocolate-->
+                <div class="row">
+                    <div class="column">
+                        <img class="categories1" src ="https://media.istockphoto.com/id/1458002761/photo/french-pastries.jpg?s=1024x1024&w=is&k=20&c=49QK354paZRpnsiVEsPgIj5Fs4mjd5-ewFNAU_0hDpE="/>
+                        <h2 id = "Pastries1"> Pain Au Chocolate</h2>
+                        <h3 class = "Rohaib">£1000</h3>
+                        <button class ="center1" type="button" onclick="alert('Added to Basket')">Add to Basket!</button>
+                    </div> 
+                    <!-- Croissoiant -->
+                    <div class ="column">
+                        <img class="categories1" src = "https://images.unsplash.com/photo-1587912001191-0cd4f14fd89e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"/>
+                        <h2>Croissoiant</h2>    
+                        <h3 class = "Rohaib">£1000</h3> 
+                        <button class ="center1" type="button" onclick="alert('Added to Basket')">Add to Basket!</button>
+                    </div>
+                    <!-- Cinnamon Swirl -->
+                    <div class ="column">
+                        <img class="categories1" src = "https://img.fruugo.com/product/6/92/704236926_max.jpg"/>
+                        <h2>Cinnamon Swirl</h2> 
+                        <h3 class = "Rohaib">£1000</h3> 
+                        <button class ="center1" type="button" onclick="alert('Added to Basket')">Add to Basket!</button>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="Cakes">
+                <!-- Chocolate Cake -->
+                <div class="row">
+                    <div class ="column">
+                        <img class="categories1" src = "https://th.bing.com/th/id/R.360f276dd9fd8084c6df51a9fd2a80dc?rik=b3UWINctJ2LbhQ&pid=ImgRaw&r=0"/>
+                        <h2>Chocolate Cake</h2>   
+                        <h3 class = "Rohaib">£1000</h3>
+                        <button class ="center1" type="button" onclick="alert('Added to Basket')">Add to Basket!</button> 
+                    </div>
+                    <!-- Vanilla Cake -->
+                    <div class ="column">
+                        <img class="categories1" src = "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=750&q=80"/>
+                        <h2>Vanilla Cake</h2>    
+                        <h3 class = "Rohaib">£1000</h3> 
+                        <button class ="center1" type="button" onclick="alert('Added to Basket')">Add to Basket!</button>
+                    </div>
+                    <!-- Carrot Cake -->
+                    <div class ="column">
+                        <img class="categories1" src = "https://images.unsplash.com/photo-1576618148332-a18871379090?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=449&q=80"/>
+                        <h2>Carrot Cake</h2>    
+                        <h3 class = "Rohaib">£1000</h3> 
+                        <button class ="center1" type="button" onclick="alert('Added to Basket')">Add to Basket!</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Cookies">
+            <!-- Cookies go here -->
+            <!-- Chocolate Chip Cookie -->
+                <div class="but_row">
+                    <div class ="column">
+                        <img class="categories1" src = "https://images.unsplash.com/photo-1597733153203-a54d0fbc47de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=790&q=80"/>
+                        <h2>Chocolate Chip Cookie</h2>  
+                        <h3 class = "Rohaib">£1000</h3> 
+                        <button class ="center1" type="button" onclick="alert('Added to Basket')">Add to Basket!</button>
+                    </div>
+                    <!-- Oat Cookie -->
+                    <div class ="column">
+                        <img class="categories1" src = "https://images.unsplash.com/photo-1654178990976-b88c403b3257?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=725&q=80"/>
+                        <h2>Oat Cookie</h2>
+                        <h3 class = "Rohaib">£1000</h3> 
+                        <button class ="center1" type="button" onclick="alert('Added to Basket')">Add to Basket!</button>
+                    </div>
+                    <!--White Chocolate Cookie  -->
+                    <div class ="column">
+                        <img class="categories1" src = "https://assets.sainsburys-groceries.co.uk/gol/6544333/1/2365x2365.jpg"/>
+                        <h2> White Chocolate Cookie </h2>
+                        <h3 class = "Rohaib">£1000</h3> 
+                        <button class ="center1" type="button" onclick="alert('Added to Basket')">Add to Basket!</button>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer id="Footer">
+        <!-- This is where the footer will go -->
+        <div class="row">
+            <div class="left footer">
+                <h2>Navigation</h2>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="#Pastries">Pastries</a></p>
+                <p><a href="#Cakes">Cakes</a></p>
+                <p><a href="#Cookies">Cookies</a></p>
+            </div>
+            <div class="right footer">
+                <h2>Contact Information</h2>
+                <p><b>Team Toast Bakery  &#169;</b></p>
+                <p><b>Address - 1. Baker Street, Slough</b></p>
+                <p><b>Telephone - 07123 456789</b></p>
+                <p><b>Email - toast.bakery@food.yum</b></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
